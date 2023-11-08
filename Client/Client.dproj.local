@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.086,C:\Users\babas\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\babas\Desktop\Client\Client.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.825,C:\Users\babas\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\babas\Desktop\Client\Maim.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.825,C:\Users\babas\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\babas\Desktop\Client\Maim.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.258,=C:\Users\babas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.825,C:\Users\babas\Desktop\Client\Maim.pas=C:\Users\babas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.825,C:\Users\babas\Desktop\Client\Maim.fmx=C:\Users\babas\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.086,C:\Users\babas\Desktop\Client\Client.dproj=C:\Users\babas\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="android-support-v4.dex.jar"/>

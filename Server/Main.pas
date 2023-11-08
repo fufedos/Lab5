@@ -9,8 +9,8 @@ uses
   IdUDPBase, IdUDPServer, IdGlobal, IdSocketHandle, FMX.Memo.Types,
   FMX.ScrollBox, FMX.Memo, System.DateUtils, FMX.Objects, MyCommands, System.Generics.Collections;
 
-const symbols: array [1..8] of string = (
-    'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'
+const symbols: array [1..12] of string = (
+    'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', '1','2','3', '4'
 );
 
 
@@ -246,7 +246,7 @@ begin
           TCommand.DRAW_SYMBOL:
           begin
             TMyCommands.PrepareSymbol(spl[1],spl[2],spl[3],spl[4]);
-            for symbolpos:=1 to 8 do
+            for symbolpos:=1 to 12 do
             begin
               if TMyCommands.symbol=symbols[symbolpos] then
               begin

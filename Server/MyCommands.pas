@@ -262,6 +262,96 @@ begin
     Canvas.DrawLine(p1,p2,1.0);
 
   end;
+  8: //1
+  begin
+  xcenter:=ppoint.X;
+  ycenter:=ppoint.Y;
+
+  p1:=TPointF.Create(xcenter-10,ycenter-20);
+  p2:=TPointF.Create(xcenter-10,ycenter+20);
+
+  Canvas.DrawLine(p1,p2,1.0);
+  end;
+  9: //2
+  begin
+  xcenter:=ppoint.X;
+  ycenter:=ppoint.Y;
+
+  p1:=TPointF.Create(xcenter-10,ycenter-20);
+  p2:=TPointF.Create(xcenter+10,ycenter-20);
+
+  Canvas.DrawLine(p1,p2,1.0);
+
+  p1:=TPointF.Create(xcenter+10,ycenter-20);
+  p2:=TPointF.Create(xcenter+10,ycenter);
+
+  Canvas.DrawLine(p1,p2,1.0);
+
+  p1:=TPointF.Create(xcenter+10,ycenter);
+  p2:=TPointF.Create(xcenter-10,ycenter);
+
+  Canvas.DrawLine(p1,p2,1.0);
+
+  p1:=TPointF.Create(xcenter-10,ycenter);
+  p2:=TPointF.Create(xcenter-10,ycenter+20);
+
+  Canvas.DrawLine(p1,p2,1.0);
+
+  p1:=TPointF.Create(xcenter-10,ycenter+20);
+  p2:=TPointF.Create(xcenter+10,ycenter+20);
+
+  Canvas.DrawLine(p1,p2,1.0);
+  end;
+  10: //3
+  begin
+  xcenter:=ppoint.X;
+  ycenter:=ppoint.Y;
+
+  p1:=TPointF.Create(xcenter-10,ycenter-20);
+  p2:=TPointF.Create(xcenter+10,ycenter-20);
+
+  Canvas.DrawLine(p1,p2,1.0);
+
+  p1:=TPointF.Create(xcenter+10,ycenter-20);
+  p2:=TPointF.Create(xcenter+10,ycenter);
+
+  Canvas.DrawLine(p1,p2,1.0);
+
+  p1:=TPointF.Create(xcenter-10,ycenter);
+  p2:=TPointF.Create(xcenter+10,ycenter);
+
+  Canvas.DrawLine(p1,p2,1.0);
+
+  p1:=TPointF.Create(xcenter+10,ycenter);
+  p2:=TPointF.Create(xcenter+10,ycenter+20);
+
+  Canvas.DrawLine(p1,p2,1.0);
+
+  p1:=TPointF.Create(xcenter-10,ycenter+20);
+  p2:=TPointF.Create(xcenter+10,ycenter+20);
+
+  Canvas.DrawLine(p1,p2,1.0);
+  end;
+  11: //4
+  begin
+  xcenter:=ppoint.X;
+  ycenter:=ppoint.Y;
+
+  p1:=TPointF.Create(xcenter-10,ycenter-20);
+  p2:=TPointF.Create(xcenter-10,ycenter);
+
+  Canvas.DrawLine(p1,p2,1.0);
+
+  p1:=TPointF.Create(xcenter+10,ycenter-20);
+  p2:=TPointF.Create(xcenter+10,ycenter+20);
+
+  Canvas.DrawLine(p1,p2,1.0);
+
+  p1:=TPointF.Create(xcenter-10,ycenter);
+  p2:=TPointF.Create(xcenter+10,ycenter);
+
+  Canvas.DrawLine(p1,p2,1.0);
+  end;
   end;
   end;
 
